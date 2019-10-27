@@ -1,0 +1,138 @@
+<svg>
+    <defs>
+    <!-- Template Symbol for the header -->
+    <symbol id="view-header" href="#scrollview-header">
+      <rect fill="inherit" x="0" y="0" width="100%" height="100%"/>
+      <text id="text" x="5" y="50%+10" fill="black" font-size="30"
+        font-weight="bold" />
+    </symbol>
+  </defs>
+  <rect id="rect" x="0" y="0" width="100%" height="100%" pointer-events="visible" />
+  
+    <text id="myNumber" x="20%" y="10%+15"
+      fill="azure" font-size="30" font-family="Seville-Bold"
+      text-anchor="middle" text-length="1000">0</text>
+  <text id="myHours" x="75%" y="10%+15"
+      fill="azure" font-size="30" font-family="Seville-Bold"
+      text-anchor="middle" text-length="1000">00:00:00</text>
+  
+  
+  <rect id="divider" x="50%-10" y="0" width="10" height="100%" fill="fb-white"/>
+  
+  
+  
+  <rect id="bat-left" x="5" y="102" width="10" height="60" fill="fb-white" />
+  <rect id="bat-right" x="333" y="102" width="10" height="60" fill="fb-white" />
+  
+  <rect id="ball" x="50%-10" y="50%-10" width="10" height="10" fill="fb-slate"/>
+  
+      <rect id="welcome" class="full-size" fill="fb-black" opacity="1" />
+<text id="howHeader" x="50%" y="20%"
+      fill="azure" font-size="50" font-family="Seville-Bold"
+      text-anchor="middle" text-length="1000">How To Play</text>
+        <textarea id="close" x="5%" y="5%" width="94%" font-size="32" font-family="Seville-Bold" fill="#ffffff" text-anchor="middle" text-length="128">Are you sure that you would like to close this app? Your progress won't be saved. </textarea>
+
+ 
+   
+<textarea id="playto" x="5%" y="5%" width="94%" font-size="35" font-family="Seville-Bold" fill="#ffffff" text-anchor="middle" text-length="128">Play To.... </textarea>
+  
+    <!--use id="startStart" href="#square-button" y="80%" height="55" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Play With No Limits" />
+      </use>
+    <!-- Left button -->
+  <use id="start5" y="20%" class="dialog-half-button-left" href="#square-button-neutral">
+    <set href="#text" attributeName="text-buffer" to="5" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+    <!-- Right button -->
+  <use id="start10" y="20%" class="dialog-half-button-right" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="10" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+      <!-- Left button -->
+  <use id="start15" y="50%" class="dialog-half-button-left" href="#square-button-neutral">
+    <set href="#text" attributeName="text-buffer" to="15" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+    <!-- Right button -->
+  <use id="startStart" y="50%" class="dialog-half-button-right" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="Unlimited" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+  <use id="howtoplay" href="#square-button" y="80%" height="50" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="How To Play" />
+      </use>
+  <!-- Right button >
+  <use id="start5" y="40%"  class="dialog-half-button-right" href="#square-button-neutral">
+    <set href="#text" attributeName="text-buffer" to="5 points" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+    <!-- Right button >
+  <use id="start10" y="40%"  class="dialog-half-button-right" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="10 points" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+  <!-- Left button -->
+  <use id="ok" class="dialog-half-button-left" href="#square-button-neutral">
+    <set href="#text" attributeName="text-buffer" to="Got it!" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+
+  <!-- Right button -->
+  <use id="cancel" class="dialog-half-button-right" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="Cancel" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+     
+  <use id="howTo" href="#scrollview">
+    <!-- Section 1 -->
+    <use href="#view-header" height="40" fill="pink">
+      <set href="#text" attributeName="text-buffer" to="Starting the Game" />
+    </use>
+    <use href="#scrollview-item">
+      <rect width="100%" height="250" fill="fb-red" />
+        <textarea x="1%" y="5%" width="97%" font-size="30" font-family="Seville-Bold" fill="#ffffff" text-anchor="start" text-length="128">To start the game, choose a point value. This is the point value that you will play towards to win the game.</textarea>
+
+    </use>
+        <!-- Section 2 -->
+    <use href="#view-header" height="40" fill="pink">
+      <set href="#text" attributeName="text-buffer" to="Playing the Game" />
+    </use>
+    <use href="#scrollview-item">
+      <rect width="100%" height="250" fill="fb-red" />
+        <textarea x="1%" y="5%" width="97%" font-size="30" font-family="Seville-Bold" fill="#ffffff" text-anchor="start" text-length="128">The object of this game is to hit the ball in between your paddles. If you fail to do so, the score resets. You win after you reach the selected value.</textarea>
+    
+
+    </use>
+            <!-- Section 3 -->
+    <use href="#view-header" height="40" fill="pink">
+      <set href="#text" attributeName="text-buffer" to="More Info" />
+    </use>
+    <use href="#scrollview-item">
+      <rect width="100%" height="250" fill="fb-red" />
+        <textarea x="1%" y="5%" width="97%" font-size="30" font-family="Seville-Bold" fill="#ffffff" text-anchor="start" text-length="128">When you close the app, you progress won't be saved. 
+Should you have any other questions, feel free to contact us at: support@mayer-studios.com</textarea>
+    </use>
+               <!-- Section 4 -->
+    <use href="#view-header" height="40" fill="pink">
+      <set href="#text" attributeName="text-buffer" to="Settings" />
+    </use>
+    <use href="#scrollview-item">
+      <rect width="100%" height="250" fill="fb-red" />
+        <textarea x="1%" y="5%" width="97%" font-size="30" font-family="Seville-Bold" fill="#ffffff" text-anchor="start" text-length="128">You can customize the color them etc... in app settings. Launch the Fitbit mobile app to do so. </textarea>
+    </use>
+  <!-- Section 5 -->
+    <use href="#view-header" height="40" fill="pink">
+      <set href="#text" attributeName="text-buffer" to="Close" />
+    </use>
+    <use href="#scrollview-item">
+      <rect width="100%" height="250" fill="fb-red" />
+      <textarea x="1%" y="5%" width="97%" font-size="30" font-family="Seville-Bold" fill="#ffffff" text-anchor="start" text-length="128">Click the back button to close this app.</textarea>
+        <textarea x="1%" y="80%" width="97%" font-size="30" font-family="Seville-Bold" fill="#ffffff" text-anchor="start" text-length="128">&copy; 2018 Mayer Studios</textarea>
+      
+    
+
+    </use>
+  </use>
+  
+</svg>

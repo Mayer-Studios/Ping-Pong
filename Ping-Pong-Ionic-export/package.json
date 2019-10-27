@@ -1,0 +1,18 @@
+{
+  "fitbit": {
+    "appUUID": "0c52d4a1-7f8a-4acb-8327-61d3a16c4b5d",
+    "appType": "app",
+    "appDisplayName": "Ping Pong-Ionic",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#2196f3",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Ping Pong-Ionic"
+      }
+    }
+  }
+}
