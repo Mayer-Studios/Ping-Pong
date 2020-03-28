@@ -1,4 +1,5 @@
-Attribution-NonCommercial-NoDerivatives 4.0 International
+Ping Pong is licensed under the Attribution-NonCommercial-NoDerivatives 4.0 International
+Link: http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 =======================================================================
 
